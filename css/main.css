@@ -1,0 +1,299 @@
+
+header{
+	background-color: #012034;
+	padding: 2rem;
+}
+
+.fas{
+	font-size: 30px;
+	color: white;
+}
+
+#main-menu nav {
+	height: 100%;
+	display: flex;
+}
+#main-menu{
+	background-color: #022D45;
+}
+.close-button{
+	color: white;
+}
+
+nav a{
+	color: white;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'Sofia Pro';
+	padding-left: 20px;
+}
+.nav_logo{
+	margin-bottom: 30px;
+	padding-left: 20px;
+
+}
+
+h1 {
+	color: #022D45;
+	text-align: center;
+	font-size: 5rem;
+	font-family: 'Titillium Web';
+}
+
+h2 {
+	font-size: 3rem;
+	font-family: 'Titillium Web';
+	color: #022D45;
+}
+
+h3 {
+	font-size: 2rem;
+	font-family: 'Titillium Web';
+	color: #022D45;
+}
+
+h4 {
+	font-size: 37px;
+	font-family: 'Titillium Web';
+	color: white;
+}
+
+h5 {
+	font-size: 11px;
+	font-family: 'Titillium Web';
+	color: white;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+p {
+	font-size: 25px;
+	font-family: 'Titillium Web';
+	color: white;
+}
+
+address {
+	font-size: 25px;
+	font-family: 'Titillium Web';
+	color: white;
+}
+
+footer{
+	background-color: #012034;
+	margin-top: 2rem;
+	padding: 3em 0 3em 0;
+}
+.hero { 
+	margin-bottom: 60px;
+}
+
+.visit_img img{
+	display: block;
+	margin: auto;
+}
+.visit{
+	text-align: center;
+}
+
+.visit h3{
+	line-height: 200%;
+}
+
+
+.button {
+	background-color: #012034;
+	color: white;
+	font-size: 20px;
+	padding: 18px;
+	font-family: 'Titillium Web';
+	margin-top: 5px;
+}
+
+.exhibitions{
+	padding: 4em 0 4em 0;
+}
+
+.collections {
+	padding: 4em 0 4em 0;
+}
+
+.education{
+	padding: 4em 0 4em 0;
+}
+.support{
+	padding: 4em 0 4em 0;
+}
+
+.current{
+	padding: 4em 0 4em 0;
+}
+
+.upcoming{
+	padding: 4em 0 4em 0;
+}
+
+.past{
+	padding: 4em 0 4em 0;
+}
+.online{
+	padding: 4em 0 4em 0;
+}
+
+.air img{
+	width: 100%;
+}
+
+.space img{
+	width: 100%;
+}
+
+.other img{
+	width: 100%;
+}
+
+.air h1{
+	font-size: 3rem;
+	text-align: left;
+	font-family: 'Sofia Pro';
+	color: #012034;
+}
+.space h1{
+	margin-top: 3rem;
+	font-size: 3rem;
+	text-align: left;
+	font-family: 'Sofia Pro';
+	color: #012034;
+}
+.other h1{
+	margin-top: 3rem;
+	font-size: 3rem;
+	text-align: left;
+	font-family: 'Sofia Pro';
+	color: #012034;
+}
+.air-caption{
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Titillium Web';
+	color: #012034;
+}
+.space-caption{
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Titillium Web';
+	color: #012034;
+}
+.other-caption{
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Titillium Web';
+	color: #012034;
+}
+.read_more{
+	font-size: 1rem;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Sofia Pro';
+	color: #012034;
+}
+figcaption .fas{
+	font-size: 1rem;
+	color: #012034;
+}
+figcaption a{
+	color: #012034;
+}
+
+.layer_text{
+	display: grid;
+	place-items: center;
+}
+
+.layer_text * {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.layer_text img{
+	width: 100%;
+}
+
+.layer_text .inner-text{
+	background-color: rgb(225, 225, 225, 0.6);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+
+.layer_text h1{
+	text-align: center;
+}
+
+.layer_text_hero{
+	display: grid;
+	place-items: center;
+}
+
+.layer_text_hero * {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+
+.layer_text_hero h1{
+	color: white;
+	text-align: center;
+}
+
+
+.layer_text_hero .inner-text-hero {
+	background-color: rgb(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+footer p{
+ line-height: 225%;
+ padding: 0.5em;
+}
+
+footer address{
+	line-height: 225%;
+	padding: 0.5em;
+}
+
+.fab{
+	font-size: 45px;
+	color: #CEE5F1;
+	padding: 50px;
+}
+
+.footer_map{
+	padding: 1em;
+}
+
+footer {
+	margin-left: -10px;
+	margin-bottom: 30px;
+}
+
+footer a:link {
+  color: #CEE5F1;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 200%;
+  padding: 0.5em;
+}
+
+
+#main-menu ul {
+     margin: auto 0;
+     padding: 0;
+     list-style: none;
+}
+
