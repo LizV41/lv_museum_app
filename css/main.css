@@ -1,11 +1,10 @@
-
 header{
 	background-color: #012034;
 	padding: 2rem;
 }
 
 .fas{
-	font-size: 30px;
+	font-size: 1.25rem;
 	color: white;
 }
 
@@ -24,7 +23,7 @@ nav a{
 	color: white;
 	text-align: left;
 	font-size: 45px;
-	font-family: 'Sofia Pro';
+	font-family: 'Sofia-Pro';
 	padding-left: 20px;
 }
 .nav_logo{
@@ -36,45 +35,40 @@ nav a{
 h1 {
 	color: #022D45;
 	text-align: center;
-	font-size: 5rem;
-	font-family: 'Titillium Web';
+	font-size: 4rem;
+	font-family: 'Titillium-Web';
 }
 
 h2 {
 	font-size: 3rem;
-	font-family: 'Titillium Web';
+	font-family: 'Titillium-Web';
 	color: #022D45;
+	line-height: 1;
+	margin-bottom: 1rem;
 }
 
 h3 {
 	font-size: 2rem;
-	font-family: 'Titillium Web';
+	font-family: 'Titillium-Web';
 	color: #022D45;
 }
 
 h4 {
 	font-size: 37px;
-	font-family: 'Titillium Web';
+	font-family: 'Titillium-Web';
 	color: white;
 }
 
-h5 {
-	font-size: 11px;
-	font-family: 'Titillium Web';
-	color: white;
-	margin-left: 100px;
-	margin-top: 30px;
-}
 
 p {
-	font-size: 25px;
-	font-family: 'Titillium Web';
+	font-size: 1rem;
+	font-family: 'Titillium-Web';
 	color: white;
 }
 
 address {
-	font-size: 25px;
-	font-family: 'Titillium Web';
+	font-size: 1rem;
+	font-family: 'Titillium-Web';
 	color: white;
 }
 
@@ -86,6 +80,9 @@ footer{
 .hero { 
 	margin-bottom: 60px;
 }
+.visit_img{
+	margin-bottom: 1.5rem;
+}
 
 .visit_img img{
 	display: block;
@@ -96,16 +93,18 @@ footer{
 }
 
 .visit h3{
-	line-height: 200%;
+	line-height: 150%;
 }
-
+.visit .button{
+	margin-top: 2rem;
+}
 
 .button {
 	background-color: #012034;
 	color: white;
 	font-size: 20px;
 	padding: 18px;
-	font-family: 'Titillium Web';
+	font-family: 'Titillium-Web';
 	margin-top: 5px;
 }
 
@@ -154,46 +153,46 @@ footer{
 .air h1{
 	font-size: 3rem;
 	text-align: left;
-	font-family: 'Sofia Pro';
+	font-family: 'Sofia-Pro';
 	color: #012034;
 }
 .space h1{
 	margin-top: 3rem;
 	font-size: 3rem;
 	text-align: left;
-	font-family: 'Sofia Pro';
+	font-family: 'Sofia-Pro';
 	color: #012034;
 }
 .other h1{
 	margin-top: 3rem;
 	font-size: 3rem;
 	text-align: left;
-	font-family: 'Sofia Pro';
+	font-family: 'Sofia-Pro';
 	color: #012034;
 }
 .air-caption{
 	font-size: 2rem;
 	text-align: center;
-	font-family: 'Titillium Web';
+	font-family: 'Titillium-Web';
 	color: #012034;
 }
 .space-caption{
 	font-size: 2rem;
 	text-align: center;
-	font-family: 'Titillium Web';
+	font-family: 'Titillium-Web';
 	color: #012034;
 }
 .other-caption{
 	font-size: 2rem;
 	text-align: center;
-	font-family: 'Titillium Web';
+	font-family: 'Titillium-Web';
 	color: #012034;
 }
 .read_more{
 	font-size: 1rem;
 	text-align: center;
 	text-decoration: underline;
-	font-family: 'Sofia Pro';
+	font-family: 'Sofia-Pro';
 	color: #012034;
 }
 figcaption .fas{
@@ -257,17 +256,18 @@ figcaption a{
 }
 
 footer p{
- line-height: 225%;
+ line-height: 150%;
  padding: 0.5em;
 }
 
 footer address{
-	line-height: 225%;
+	line-height: 150%;
 	padding: 0.5em;
+	font-style: normal;
 }
 
 .fab{
-	font-size: 45px;
+	font-size: 2rem;
 	color: #CEE5F1;
 	padding: 50px;
 }
@@ -285,11 +285,14 @@ footer a:link {
   color: #CEE5F1;
   background-color: transparent;
   text-decoration: none;
-  font-size: 25px;
-  line-height: 200%;
+  font-size: 1rem;
+  line-height: 150%;
   padding: 0.5em;
 }
-
+.copyright{
+	font-size: 0.5rem;
+	padding: 0.5rem;
+}
 
 #main-menu ul {
      margin: auto 0;
